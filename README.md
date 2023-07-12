@@ -5,4 +5,5 @@ Download the data from https://github.com/suman2mandal/Mentor_Mentee/archive/ref
 then run the index.html and make sure the dootstrap file is attached in the directory.
 
 If everything works well then you can see a form like 
-![image](https://github.com/suman2mandal/Mentor_Mentee/assets/36975298/915373ba-0b75-4ef9-89ae-22ea6aa6594a)
+![image](https://github.com/suman2mandal/Mentor_Mentee/assets/36975298/80f46cdf-38e5-463d-88ef-3577c735cb67)
+

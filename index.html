@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Mentee</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Mentor Information -->
+    <form class="" action="" method="">
+    <div class="container d-flex justify-content-center p-2 text-bg-success ">
+        <h1>Mentor - Mentee Report</h1>
+    </div>
+    <div class="container p-4">
+        <div class="row mb-3">
+            <label for="school" class="col-sm-2 col-form-label">School:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="school">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Department" class="col-sm-2 col-form-label">Department:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Department">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Mentor" class="col-sm-2 col-form-label">Name of Mentor:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Mentor">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="joining" class="col-sm-2 col-form-label">Date of joining at TNU:</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" id="joining">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Remarks" class="col-sm-2 col-form-label">Remarks:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Remarks">
+            </div>
+        </div>
+    </div>
+    <hr class="border border-primary border-3 opacity-75">
+
+    <!-- Mentee Information -->
+    <div class="container d-flex justify-content-center p-2 text-bg-info">
+        <h1>Mentee Information</h1>
+    </div>
+
+    <div class="container p-4">
+        <div class="row mb-3">
+            <label for="UID" class="col-sm-2 col-form-label">UID:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="UID">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Mentee" class="col-sm-2 col-form-label">Mentee Name:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Mentee">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Semester" class="col-sm-2 col-form-label">Semester:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Semester">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Program" class="col-sm-2 col-form-label">Program Enrolled:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Program">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Latest" class="col-sm-2 col-form-label">Latest CGPA:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="Latest">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Attendance" class="col-sm-2 col-form-label">Attendance of Current Month:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="Attendance">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="interaction" class="col-sm-2 col-form-label">Date of interaction with Mentee:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="interaction">
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="container p-4">
+        <div class="text-success">
+            <hr>
+          </div>
+        <div class="mb-3 container">
+            <label for="Problems" class="form-label">Problems as Understood by Mentor:</label>
+            <textarea class="form-control" id="Problems" rows="3"></textarea>
+        </div>
+        <div class="mb-3 container">
+            <label for="Remedial" class="form-label">Remedial Action Taken/Suggested:</label>
+            <textarea class="form-control" id="Remedial" rows="3"></textarea>
+        </div>
+        <div class="mb-3 container">
+            <label for="Changes" class="form-label">Whether Any Changes Observed in Last One Month:</label>
+            <textarea class="form-control" id="Changes" rows="3"></textarea>
+        </div>
+    </div>
+    
+    <div class="d-flex p-3 justify-content-center">
+            <button class="btn btn-success p-2 m-2" type="submit">Submit</button>
+            <button class="btn btn-warning p-2 m-2" type="reset">Reset</button>
+    </div>
+    </form>
+</body>
+ <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+</html>
